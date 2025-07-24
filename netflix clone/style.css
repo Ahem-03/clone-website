@@ -1,0 +1,245 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+        }
+
+        body {
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/8200f588-2e93-4c95-8eab-ebba17821657/web/IN-en-20250616-TRIFECTA-perspective_9cbc87b2-d9bb-4fa8-9f8f-a4fe8fc72545_large.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* backface-visibility: ; */
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            color: rgb(229, 9, 20);
+            margin: 10px;
+            padding: 0px 165px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 25px;
+        }
+
+        main {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .wrapper {
+            
+            background: rgb(0, 0, 0);
+            max-width: 480px;
+            border-radius: 7px;
+            opacity: 0.8;
+            color: white;
+            backdrop-filter: blur(30px);
+        }
+
+        .wrapper-padding {
+            padding: 65px;
+            min-width: auto;
+        }
+
+        .inner-box {
+            position: relative;
+            box-sizing: border-box;
+
+            /* background-color: #fff; */
+            /* opacity: 0.6; */
+        }
+        .input-box{
+position: relative;
+height: 50px;
+border: 2px solid rgb(239, 238, 238);
+margin: 10px 0px ;
+        }
+
+        .input-box label{
+            position: absolute;
+            top: 60%;
+            left: 5px;
+           transform: translateY(-50%);
+            font-size: 1em;
+            color: gray;
+            pointer-events: none;
+            transition: 0.5s;
+        }
+        form .input-box input{
+            width: 100%;                          
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: rgb(255, 255, 255);
+            font-size: 1em;
+        }
+        /* .input-box input:focus~label, 
+        .input-box input:valid~label{
+top: -5px;
+        } */
+
+        .password {
+            border: 2px solid white;
+            border-radius: 5px;
+            margin-top: 10px;
+            padding-bottom: 5px; 
+
+        }
+
+        button {
+            font-size: 1rem;
+            width: 100%;
+            font-weight: 500;
+            min-height: 2.5rem;
+            padding: 0.380rem 0rem;
+            border-radius: 0.25rem;
+            margin: 12px 0px;
+            color: white;
+            cursor: pointer;
+            /* flex-grow: 1; */
+        }
+
+        .sign-in-button {
+            background-color: rgb(214, 12, 22);
+            border: none;
+            padding: 4px 0px;
+        }
+
+        .code-button {
+            /* background: transparent; */
+            background-color: gray;
+            border: none;
+
+        }
+
+        .or {
+            text-align: center;
+        }
+
+        div a {
+            color: white;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .forget-anchor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .checkbox {
+            font-size: 17px;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            padding-right: 5px;
+        }
+
+        .remember {
+            zoom: 1.5;
+            margin: 5px;
+        }
+
+        .wrapper .sign-up {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1rem;
+
+            margin: 18px 0px;
+        }
+
+        .wrapper .sign-up a {
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+        }
+
+        .wrapper-paragraph {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.8125rem;
+            font-weight: 400;
+        }
+
+        .learn-more-anchor a {
+            color: rgb(68, 142, 244);
+            font-size: 0.8125rem;
+            font-weight: 600;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: black;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 70px;
+
+        }
+
+        footer {
+            background-color: black;
+            height: 35vh;
+            max-width: 1250px;
+            line-height: 4rem;
+            margin-top: 35px;
+
+        }
+
+        .language {
+            border: 2px solid rgb(161, 159, 159);
+            width: fit-content;
+            border-radius: 4px;
+            padding: 5px;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        footer .language select {
+            border: none;
+        }
+
+        .footer-line {
+            text-align: left;
+        }
+
+        .footer ul {
+            display: flex;
+            justify-content: center;
+            /* padding-right: 50px; */
+
+        }
+
+        .footer ul li {
+            list-style-type: none;
+            padding-right:79px;
+        }
+        .footer ul li a{
+          color: rgba(255, 255, 255, 0.7);  
+        }
+        .language select {
+            background: transparent;
+            color:rgba(255, 255, 255, 1);
+            filter: opacity(100%);
+            outline: none;
+            font-size: 20px;
+        }
+        .language svg path{
+            font-size: 20px;
+        }
+        .language{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
